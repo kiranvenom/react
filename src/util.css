@@ -1,0 +1,16 @@
+button {
+	padding: 0.4rem 2rem;
+	margin: 0.4rem 0;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	background-color: #eaeaea;
+	padding: 1rem;
+	font-size: 1.2rem;
+	margin: 0.4rem 0;
+}
+
