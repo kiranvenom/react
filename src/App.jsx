@@ -23,6 +23,10 @@ import MockUser from './Components/MockUser';
 import WeatherCrio from './Components/WeatherCrio';
 import Greet from './Components/Greet';
 import Dictionary from './Components/Dictionary';
+import AwesomeMenu from './Components/AwesomeMenu';
+import Cards from './Components/Cards';
+import ListSearch from './Components/ListSearch';
+import YoutubeLink from './Components/YoutubeLink';
 
 const theme = {
 	primary: {
@@ -43,7 +47,7 @@ const App = () => {
 	};
 	return (
 		<>
-			<div className='main'>
+			<div className='main1'>
 				{/* <LoginForm /> */}
 				{/* <TemperatureConverter /> */}
 				{/* <Accordian /> */}
@@ -73,7 +77,11 @@ const App = () => {
 				{/* <FramerMotion /> */}
 				{/* <MockUser /> */}
 				{/* <WeatherCrio /> */}
-				<Dictionary />
+				{/* <Dictionary /> */}
+				{/* <AwesomeMenu /> */}
+				{/* <Cards /> */}
+				{/* <ListSearch /> */}
+				<YoutubeLink />
 			</div>
 		</>
 	);
